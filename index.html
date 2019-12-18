@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,11 +29,155 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+
+    <!-- 9AM-->
+<div class="row">
+  <div class="col-sm-2 time-block hour">
+    <p>9AM-10AM</p>
+  </div>
+
+  <div class="col-sm-7">
+    <input type="text" Placeholder="Write event here"></input>
+  </div>
+
+  <div class="col-sm-3">
+    <button class="btn btn-primary" type="submit" value="Submit" onclick="saveActivity(9)">Save Activity</button>
+  </div>
+
+  </div>
+
+      <!-- 10AM-->
+<div class="row">
+  <div class="col-sm-2 time-block hour">
+    <p>10AM-11AM</p>
+  </div>
+
+  <div class="col-sm-7">
+    <input type="text" Placeholder="Write event here"></input>
+  </div>
+
+  <div class="col-sm-3">
+    <button class="btn btn-primary" type="submit" value="Submit" onclick="saveActivity(10)">Save Activity</button>
+  </div>
+
+</div>
+
+      <!-- 11AM-->
+      <div class="row">
+        <div class="col-sm-2 time-block hour">
+          <p>11AM-12PM</p>
+        </div>
+      
+        <div class="col-sm-7">
+          <input type="text" Placeholder="Write event here"></input>
+        </div>
+      
+        <div class="col-sm-3">
+          <button class="btn btn-primary" type="submit" value="Submit" onclick="saveActivity(11)">Save Activity</button>
+        </div>
+      
+      </div>
+
+            <!-- 12PM-->
+<div class="row">
+  <div class="col-sm-2 time-block hour">
+    <p>12PM-1PM</p>
+  </div>
+
+  <div class="col-sm-7">
+    <input type="text" Placeholder="Write event here"></input>
+  </div>
+
+  <div class="col-sm-3">
+    <button class="btn btn-primary" type="submit" value="Submit" onclick="saveActivity(12)">Save Activity</button>
+  </div>
+
+</div>
+
+      <!-- 1PM-->
+      <div class="row">
+        <div class="col-sm-2 time-block hour">
+          <p>1PM-2PM</p>
+        </div>
+      
+        <div class="col-sm-7">
+          <input type="text" Placeholder="Write event here"></input>
+        </div>
+      
+        <div class="col-sm-3">
+          <button class="btn btn-primary" type="submit" value="Submit" onclick="saveActivity(1)">Save Activity</button>
+        </div>
+      
+      </div>
+
+            <!-- 2PM-->
+<div class="row">
+  <div class="col-sm-2 time-block hour">
+    <p>2PM-3PM</p>
+  </div>
+
+  <div class="col-sm-7">
+    <input type="text" Placeholder="Write event here"></input>
+  </div>
+
+  <div class="col-sm-3">
+    <button class="btn btn-primary" type="submit" value="Submit" onclick="saveActivity(2)">Save Activity</button>
+  </div>
+
+</div>
+
+      <!-- 3PM-->
+      <div class="row">
+        <div class="col-sm-2 time-block hour">
+          <p>3PM-4PM</p>
+        </div>
+      
+        <div class="col-sm-7">
+          <input type="text" Placeholder="Write event here"></input>
+        </div>
+      
+        <div class="col-sm-3">
+          <button class="btn btn-primary" type="submit" value="Submit" onclick="saveActivity(3)">Save Activity</button>
+        </div>
+      
+      </div>
+
+            <!-- 4PM-->
+<div class="row">
+  <div class="col-sm-2 time-block hour">
+    <p>4PM-5PM</p>
+  </div>
+
+  <div class="col-sm-7">
+    <input type="text"  Placeholder="Write event here"></input>
+  </div>
+
+  <div class="col-sm-3">
+    <button class="btn btn-primary" type="submit" value="Submit" onclick="saveActivity(4)">Save Activity</button>
+  </div>
+
+</div>
+
+      <!-- 5PM-->
+      <div class="row">
+        <div class="col-sm-2 time-block hour">
+          <p>5PM-6PM</p>
+        </div>
+      
+        <div class="col-sm-7">
+          <input type="text" Placeholder="Write event here"></input>
+        </div>
+      
+        <div class="col-sm-3">
+          <button class="btn btn-primary" type="submit" value="Submit" onclick="saveActivity(5)">Save Activity</button>
+        </div>
+      
+      </div>
+      
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="/script/script.js"></script>
+    <script src="script/script.js"></script>
   </body>
 </html>

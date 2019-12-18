@@ -3,6 +3,10 @@ body {
     font-size: 16px;
     line-height: 1;
   }
+
+  input {
+    width: 100%;
+  }
   
   textarea{
     background: transparent;
