@@ -1,3 +1,5 @@
+/* Some of this css is unused and was part of the initial assignment file */
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -34,7 +36,23 @@ body {
   .hour {
     background-color: #ffffff;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+  }
+
+  .submitSide {
+    background-color: #ffffff;
+    color: #007bff;
+    border-top: 2px solid #007bff;
+    border-left: 2px solid #007bff;
+    border-bottom: 2px solid #007bff;
+    border-radius: 10px;
+    text-align: left;
+  }
+
+  .middleBoxes {
+    border: 2px solid #000000;
   }
   
   .past {
@@ -71,8 +89,8 @@ body {
     border-style: solid;
     border-width: medium;
     border-color: black;
-    width: 100%;
-height: 100%;
+    width: 140px;
+    height: 20px;
   }
 
   .dividingLine {
